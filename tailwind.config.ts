@@ -56,12 +56,6 @@ const config: Config = {
           "4": "hsl(var(--chart-4))",
           "5": "hsl(var(--chart-5))",
         },
-        boxShadow: {
-          romantic: "var(--shadow-romantic)",
-          glow: "var(--shadow-glow)",
-          elegant: "var(--shadow-elegant)",
-        },
-
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -77,6 +71,11 @@ const config: Config = {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      boxShadow: {
+        romantic: "var(--shadow-romantic)",
+        glow: "var(--shadow-glow)",
+        elegant: "var(--shadow-elegant)",
       },
       keyframes: {
         "accordion-down": {
@@ -99,7 +98,7 @@ const config: Config = {
           "0%, 100%": { transform: "translateY(0px)" },
           "50%": { transform: "translateY(-20px)" },
         },
-        pulseSoft: {
+        "pulse-soft": {
           "0%, 100%": { opacity: "1" },
           "50%": { opacity: "0.5" },
         },
